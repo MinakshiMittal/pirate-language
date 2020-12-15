@@ -58,3 +58,20 @@ button {
 ::placeholder {
     color: #fae389;
 }
+
+@media (max-width: 720px) {
+    #translating-div {
+        width: 90%;
+        margin: auto;
+    }
+
+    .description-text {
+        margin-left: 1rem;
+    }
+
+    textarea {
+        width: 90%;
+        margin: auto;
+        margin: 5rem 0 0 .9rem;
+    }
+}
